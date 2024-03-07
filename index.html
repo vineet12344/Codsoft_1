@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../font-awsome/font-awesome-4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+</head>
+<body>
+    <div class="maincontainer">
+        <div class="heading">
+            To-Do-List
+            <img src="./assets/pencil.png" alt="png" width="150px">
+        </div>
+        <div class="todolistocntainer">
+        <div class="appcontainer">
+            <div class="input">
+                <input type="text" name="taskinput" id="taskinput">
+                <input type="submit" onclick="submitTask()" name="taskinput" id="tasksubmit">
+            </div>
+            <div class="taskListContainer" id="taskContainer">
+                
+            </div>
+        </div>  
+        </div>
+
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
